@@ -1,0 +1,13 @@
+#!/bin/bash
+#######################################################################################
+### 
+### (c) 2010 Tyco International Ltd. and its respective companies. All rights reserved.
+### 
+#######################################################################################
+
+. ${ADNVR_SYSCONFIG_DIR:-/etc/sysconfig}/${ADNVR_SYSCONFIG_FILE:-adnvr}
+exec $ADNVR_BIN_DIR/ecrecovery $*
+
+
+
+
